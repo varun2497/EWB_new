@@ -118,7 +118,97 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
-
+/* Icons and numbers */
+.icon-aside {
+    text-align: center;
+}
+.icon-aside .stat-icons {
+    list-style: none;
+    margin: 0 0 18px;
+    padding-bottom: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0.1px;
+}
+.clearfix, .cf {
+    zoom: 1;
+}
+@media only screen and (min-width: 768px){
+.icon-aside .stat-icons .stat-icon {
+    margin-top: 62px;
+    padding: 66px 16px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+}
+.icon-aside .stat-icons .stat-icon {
+    position: relative;
+    margin-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 66px 16px 16px;
+    background: #d1d0c1;
+}
+@media only screen and (min-width: 768px){
+.icon-aside .t-1of3 {
+    width: 32%;
+    margin-right: 2%;
+}
+}
+@media only screen and (max-width: 768px){
+    .icon-aside .stat-icons .stat-icon {
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 1030px){
+.icon-aside .stat-icons .stat-icon h2 {
+    font-size: 14px;
+}}
+@media only screen and (min-width: 768px){
+.icon-aside .stat-icons .stat-icon h2 {
+    font-size: 13px;
+}}
+.icon-aside h2, .icon-aside .h2 {
+    text-transform: uppercase;
+    color: #372a0d;
+    font-family: 'Montserrat',arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    border-bottom: 0;
+}
+.icon-aside .stat-icons .stat-icon span.stat-num {
+    font-size: 60px;
+    line-height: 60px;
+    color: #372a0d;
+    display: block;
+    font-family: 'lobster_14regular',arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.icon-aside .stat-icons .stat-icon img {
+    position: absolute;
+    top: -3.5em;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.icon-aside .stat-icons {
+    list-style: none;
+    margin: 0 0 18px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+@media (min-width: 1030px){
+.d-1of3 {
+    float: left;
+    padding-right: .75em;
+    width: 33.33%;
+}
+}
 .join-hover a {
     color: white;
 }
